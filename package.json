@@ -1,0 +1,19 @@
+{
+  "name": "@nikolarhristov/router",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikolaxhristov/router.git"
+  },
+  "scripts": {
+	"build": "lightrix build src/**/*.ts",
+	"dev": "wrangler dev"
+},
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikolaxhristov/router/issues"
+  },
+  "homepage": "https://github.com/nikolaxhristov/router#readme"
+}
