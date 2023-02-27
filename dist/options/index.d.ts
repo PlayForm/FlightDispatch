@@ -21,12 +21,11 @@ export interface optionCommandsPlan {
     debug: optionDebug;
     flights: number;
     info: any;
-    paths: Map<string, string>;
     results: Map<string, string>;
     ongoing: optionCommandsFlight;
 }
 export interface optionCommandsFlight {
-    info: optionInfo;
+    destination: optionInfo;
 }
 declare const _default: {
     logger: 2;
