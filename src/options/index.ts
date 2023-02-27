@@ -26,8 +26,7 @@ export type optionExclude = string | RegExp | ((file: string) => boolean);
 export type optionPath = string | URL | Map<string | URL, string | URL> | false;
 
 export interface Options {
-	// rome-ignore lint/suspicious/noExplicitAny:
-	[key: string]: any;
+	[key: string]: unknown;
 
 	path?: optionPath | optionPath[] | Set<optionPath>;
 
@@ -43,8 +42,7 @@ export interface optionCommandsPlan {
 
 	flights: number;
 
-	// rome-ignore lint/suspicious/noExplicitAny:
-	info: any;
+	info: unknown;
 
 	results: Map<string, string>;
 
