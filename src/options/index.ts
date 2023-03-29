@@ -54,7 +54,7 @@ export interface optionCommandsFlight {
 }
 
 export default {
-	// rome-ignore lint/nursery/noPrecisionLoss:
+
 	logger: 2,
 	dispatch: {
 		passed: async () => true,
