@@ -23,7 +23,7 @@
 		"build": "lightrix build src/**/*.ts"
 	},
 	"dependencies": {
-		"deepmerge-ts": "5.0.0"
+		"deepmerge-ts": "5.1.0"
 	},
 	"devDependencies": {
 		"@lightrix/config": "0.0.8",
