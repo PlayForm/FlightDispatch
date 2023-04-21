@@ -20,7 +20,7 @@
 		"dispatch"
 	],
 	"scripts": {
-		"build": "lightrix build src/**/*.ts"
+		"build": "lightrix build src/*/*.ts"
 	},
 	"dependencies": {
 		"deepmerge-ts": "5.1.0"
