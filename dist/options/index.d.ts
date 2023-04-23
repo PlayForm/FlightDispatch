@@ -11,7 +11,7 @@ export interface commands {
 export type optionExclude = string | RegExp | ((file: string) => boolean);
 export type optionPath = string | URL | Map<string | URL, string | URL> | false;
 export interface Options {
-    [key: string]: unknown;
+    [key: string]: any;
     path?: optionPath | optionPath[] | Set<optionPath>;
     exclude?: optionExclude | optionExclude[] | Set<optionExclude>;
     dispatch?: commands;
@@ -20,7 +20,7 @@ export interface Options {
 export interface optionCommandsPlan {
     debug: optionDebug;
     flights: number;
-    info: unknown;
+    info: any;
     results: Map<string, string>;
     ongoing: optionCommandsFlight;
 }
