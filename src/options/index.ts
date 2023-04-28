@@ -1,20 +1,19 @@
 export type optionDebug = 0 | 1 | 2;
 
-export type optionInfo =
-	| string;
+export type optionInfo = string;
 
 export interface commands {
 	fulfilled?:
-	| boolean
-	| ((plan: optionCommandsPlan) => Promise<false | string>);
+		| boolean
+		| ((plan: optionCommandsPlan) => Promise<false | string>);
 
 	failed?:
-	| boolean
-	| ((inputPath: optionCommandsFlight) => Promise<false | string>);
+		| boolean
+		| ((inputPath: optionCommandsFlight) => Promise<false | string>);
 
 	accomplished?:
-	| boolean
-	| ((ongoing: optionCommandsFlight) => Promise<false | string>);
+		| boolean
+		| ((ongoing: optionCommandsFlight) => Promise<false | string>);
 
 	changed?: (plan: optionCommandsPlan) => Promise<optionCommandsPlan>;
 
@@ -54,7 +53,6 @@ export interface optionCommandsFlight {
 }
 
 export default {
-
 	logger: 2,
 	dispatch: {
 		passed: async () => true,

@@ -2,7 +2,6 @@ import type { optionCommandsPlan } from "../options/index.js";
 
 export default class flights {
 	plan: optionCommandsPlan = {
-
 		flights: 0,
 
 		debug: 2,
@@ -12,7 +11,6 @@ export default class flights {
 			destination: "",
 		},
 	};
-
 
 	constructor(debug: optionCommandsPlan["debug"] = 2) {
 		this.plan.debug = debug;
