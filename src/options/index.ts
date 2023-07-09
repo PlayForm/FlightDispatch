@@ -3,9 +3,7 @@ export type optionDebug = 0 | 1 | 2;
 export type optionInfo = string;
 
 export interface commands {
-	fulfilled?:
-		| boolean
-		| ((plan: optionCommandsPlan) => Promise<false | string>);
+	fulfilled?: boolean | ((plan: optionCommandsPlan) => Promise<false | string>);
 
 	failed?:
 		| boolean
