@@ -1,4 +1,4 @@
-/// <reference types="node" />
+/// <reference types="node" resolution-mode="require"/>
 export type optionDebug = 0 | 1 | 2;
 export type optionInfo = string;
 export interface commands {
