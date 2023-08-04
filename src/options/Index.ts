@@ -17,7 +17,7 @@ export interface commands {
 
 	changed?: (plan: optionCommandsPlan) => Promise<optionCommandsPlan>;
 
-	passed?: (ongoing: optionCommandsFlight) => Promise<boolean>;
+	passed?: (ongoing: optionCommandsFlight) => Promise<Boolean>;
 }
 
 export type optionExclude = string | RegExp | ((file: string) => boolean);
