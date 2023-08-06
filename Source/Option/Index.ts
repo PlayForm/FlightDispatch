@@ -3,15 +3,15 @@ export type optionDebug = 0 | 1 | 2;
 export type optionInfo = string;
 
 export interface commands {
-	fulfilled?:
+	Fulfilled?:
 		| boolean
 		| ((plan: optionCommandsPlan) => Promise<false | string>);
 
-	failed?:
+	Failed?:
 		| boolean
 		| ((inputPath: optionCommandsFlight) => Promise<false | string>);
 
-	accomplished?:
+	Accomplished?:
 		| boolean
 		| ((ongoing: optionCommandsFlight) => Promise<false | string>);
 
