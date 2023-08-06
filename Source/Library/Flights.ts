@@ -1,4 +1,4 @@
-import type { optionCommandsPlan } from "../options/Index.js";
+import type { optionCommandsPlan } from "../Option/Index.js";
 
 export default class flights {
 	plan: optionCommandsPlan = {
