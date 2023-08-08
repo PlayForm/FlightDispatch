@@ -53,7 +53,7 @@ export interface optionCommandsFlight {
 }
 
 export default {
-	logger: 2,
+	Logger: 2,
 	dispatch: {
 		passed: async () => true,
 		changed: async (plan) => plan,
