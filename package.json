@@ -25,7 +25,7 @@
 		"deepmerge-ts": "5.1.0"
 	},
 	"devDependencies": {
-		"@lightrix/script": "0.0.1"
+		"typescript-esbuild": "0.1.13"
 	},
 	"publishConfig": {
 		"access": "public"
