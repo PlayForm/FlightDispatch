@@ -15,6 +15,7 @@
 		"type": "git",
 		"url": "git+https://github.com/Lightrix/flights-dispatch.git"
 	},
+	"license": "MIT",
 	"type": "module",
 	"main": "./Target/Index.js",
 	"types": "./Target/Index.d.ts",
