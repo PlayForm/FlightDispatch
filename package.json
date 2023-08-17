@@ -1,7 +1,7 @@
 {
 	"name": "flights-dispatch",
 	"version": "0.0.1",
-	"private": false,
+	"private": "false",
 	"description": "🪧 Dispatch for flights.",
 	"keywords": [
 		"flights",
@@ -16,6 +16,11 @@
 		"url": "git+https://github.com/Lightrix/flights-dispatch.git"
 	},
 	"license": "MIT",
+	"author": {
+		"name": "Nikola Hristov",
+		"email": "nikola@nikolahristov.tech",
+		"url": "https://nikolahristov.tech"
+	},
 	"type": "module",
 	"main": "./Target/Index.js",
 	"types": "./Target/Index.d.ts",
