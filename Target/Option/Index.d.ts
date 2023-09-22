@@ -1,4 +1,4 @@
-/// <reference types="node" resolution-mode="require"/>
+/// <reference types="node" />
 export type optionDebug = 0 | 1 | 2;
 export type optionInfo = string;
 export interface commands {
@@ -10,7 +10,7 @@ export interface commands {
 }
 export type optionExclude = string | RegExp | ((file: string) => boolean);
 export type optionPath = string | URL | Map<string | URL, string | URL> | false;
-export interface Options {
+export interface Type {
     [key: string]: any;
     path?: optionPath | optionPath[] | Set<optionPath>;
     exclude?: optionExclude | optionExclude[] | Set<optionExclude>;
@@ -27,11 +27,5 @@ export interface optionCommandsPlan {
 export interface optionCommandsFlight {
     destination: optionInfo;
 }
-declare const _default: {
-    Logger: number;
-    dispatch: {
-        passed: () => Promise<boolean>;
-        changed: (plan: optionCommandsPlan) => Promise<optionCommandsPlan>;
-    };
-};
+declare const _default: Type;
 export default _default;
