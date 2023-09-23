@@ -27,5 +27,11 @@ export interface optionCommandsPlan {
 export interface optionCommandsFlight {
     destination: optionInfo;
 }
-declare const _default: Type;
+declare const _default: {
+    Logger: number;
+    dispatch: {
+        passed: () => Promise<boolean>;
+        changed: (plan: optionCommandsPlan) => Promise<optionCommandsPlan>;
+    };
+};
 export default _default;

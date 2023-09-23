@@ -58,4 +58,4 @@ export default {
 		passed: async () => true,
 		changed: async (plan) => plan,
 	},
-} satisfies Type as Type;
+} satisfies Type;
