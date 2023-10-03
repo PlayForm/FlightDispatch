@@ -7,13 +7,13 @@
 		"flights",
 		"dispatch"
 	],
-	"homepage": "https://github.com/Lightrix/flights-dispatch#readme",
+	"homepage": "https://github.com/NikolaRHristov/FlightsDispatch#readme",
 	"bugs": {
-		"url": "https://github.com/Lightrix/flights-dispatch/issues"
+		"url": "https://github.com/NikolaRHristov/FlightsDispatch/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Lightrix/flights-dispatch.git"
+		"url": "git+https://github.com/NikolaRHristov/FlightsDispatch.git"
 	},
 	"license": "MIT",
 	"author": {
