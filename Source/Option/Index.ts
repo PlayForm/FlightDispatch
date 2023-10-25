@@ -25,8 +25,6 @@ export type optionExclude = string | RegExp | ((file: string) => boolean);
 export type optionPath = string | URL | Map<string | URL, string | URL> | false;
 
 export default interface Type {
-	[key: string]: any;
-
 	path?: optionPath | optionPath[] | Set<optionPath>;
 
 	exclude?: optionExclude | optionExclude[] | Set<optionExclude>;
