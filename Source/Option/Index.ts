@@ -50,10 +50,10 @@ export default interface optionCommandsFlight {
 	destination: optionInfo;
 }
 
-export default ({
+export default {
 	Logger: 2,
 	dispatch: {
 		passed: async () => true,
 		changed: async (plan) => plan,
 	},
-} satisfies Type);
+} satisfies Type;
