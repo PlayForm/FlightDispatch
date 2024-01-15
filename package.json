@@ -31,7 +31,7 @@
 		"deepmerge-ts": "5.1.0"
 	},
 	"devDependencies": {
-		"typescript-esbuild": "0.3.5"
+		"typescript-esbuild": "0.3.6"
 	},
 	"publishConfig": {
 		"access": "public"
