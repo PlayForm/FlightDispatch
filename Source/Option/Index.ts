@@ -17,7 +17,7 @@ export default interface commands {
 
 	changed?: (plan: optionCommandsPlan) => Promise<optionCommandsPlan>;
 
-	passed?: (ongoing: optionCommandsFlight) => Promise<Boolean>;
+	passed?: (ongoing: optionCommandsFlight) => Promise<boolean>;
 }
 
 export type optionExclude = string | RegExp | ((file: string) => boolean);
@@ -50,10 +50,10 @@ export default interface optionCommandsFlight {
 	destination: optionInfo;
 }
 
-export default {
+export default ({
 	Logger: 2,
 	dispatch: {
 		passed: async () => true,
 		changed: async (plan) => plan,
 	},
-} satisfies Type;
+} satisfies Type);
