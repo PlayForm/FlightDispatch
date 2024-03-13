@@ -1,19 +1,19 @@
 {
-	"name": "flights-dispatch",
+	"name": "flight-dispatch",
 	"version": "0.0.1",
 	"private": false,
-	"description": "🪧 Dispatch for flights.",
+	"description": "🪧 Dispatch.",
 	"keywords": [
-		"flights",
+		"flight",
 		"dispatch"
 	],
-	"homepage": "https://github.com/NikolaRHristov/FlightsDispatch#readme",
+	"homepage": "https://github.com/Playform/Watch#readme",
 	"bugs": {
-		"url": "https://github.com/NikolaRHristov/FlightsDispatch/issues"
+		"url": "https://github.com/Playform/Watch/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/NikolaRHristov/FlightsDispatch.git"
+		"url": "git+https://github.com/Playform/Watch.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
