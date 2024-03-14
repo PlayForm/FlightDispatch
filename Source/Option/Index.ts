@@ -2,7 +2,7 @@ export type optionDebug = 0 | 1 | 2;
 
 export type optionInfo = string;
 
-export default interface commands {
+export default interface Command {
 	Fulfilled?:
 		| boolean
 		| ((plan: optionCommandsPlan) => Promise<false | string>);
@@ -29,7 +29,7 @@ export default interface Type {
 
 	exclude?: optionExclude | optionExclude[] | Set<optionExclude>;
 
-	dispatch?: commands;
+	dispatch?: Command;
 
 	logger?: optionDebug;
 }
