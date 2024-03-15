@@ -3,10 +3,7 @@
 	"version": "0.0.1",
 	"private": false,
 	"description": "🪧 Dispatch.",
-	"keywords": [
-		"flight",
-		"dispatch"
-	],
+	"keywords": ["flight", "dispatch"],
 	"homepage": "https://github.com/Playform/Watch#readme",
 	"bugs": {
 		"url": "https://github.com/Playform/Watch/issues"
@@ -18,7 +15,7 @@
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
 		"name": "Nikola R. Hristov",
-		"email": "nikola@nikolahristov.tech",
+		"email": "Nikola@Playform.Cloud",
 		"url": "https://nikolahristov.tech"
 	},
 	"type": "module",
