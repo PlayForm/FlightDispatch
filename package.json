@@ -3,7 +3,10 @@
 	"version": "0.0.1",
 	"private": false,
 	"description": "🪧 Dispatch.",
-	"keywords": ["flight", "dispatch"],
+	"keywords": [
+		"flight",
+		"dispatch"
+	],
 	"homepage": "https://github.com/Playform/Watch#readme",
 	"bugs": {
 		"url": "https://github.com/Playform/Watch/issues"
@@ -22,12 +25,14 @@
 	"main": "./Target/Index.js",
 	"types": "./Target/Index.d.ts",
 	"scripts": {
+		"Document": "TypeScriptDocument 'Source/**/*.ts'",
 		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
 	},
 	"dependencies": {
 		"deepmerge-ts": "5.1.0"
 	},
 	"devDependencies": {
+		"typescript-document": "0.0.2",
 		"typescript-esbuild": "0.4.3"
 	},
 	"publishConfig": {
