@@ -7,19 +7,19 @@
 		"flight",
 		"dispatch"
 	],
-	"homepage": "HTTPS://GitHub.Com/Playform/Watch#readme",
+	"homepage": "https://github.com/Playform/Watch#readme",
 	"bugs": {
-		"url": "HTTPS://GitHub.Com/Playform/Watch/issues"
+		"url": "https://github.com/Playform/Watch/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+HTTPS://GitHub.Com/Playform/Watch.git"
+		"url": "git+https://github.com/Playform/Watch.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
 		"name": "Playform",
 		"email": "Hello@Playform.Cloud",
-		"url": "HTTPS://Playform.Cloud"
+		"url": "https://playform.cloud"
 	},
 	"type": "module",
 	"main": "./Target/Index.js",
