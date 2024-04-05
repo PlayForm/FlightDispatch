@@ -2,7 +2,7 @@ export type optionDebug = 0 | 1 | 2;
 
 export type optionInfo = string;
 
-export default interface Command {
+export interface Command {
 	Fulfilled?:
 		| boolean
 		| ((plan: optionCommandsPlan) => Promise<false | string>);
@@ -24,7 +24,7 @@ export type optionExclude = string | RegExp | ((file: string) => boolean);
 
 export type optionPath = string | URL | Map<string | URL, string | URL> | false;
 
-export default interface Interface {
+export interface Interface {
 	path?: optionPath | optionPath[] | Set<optionPath>;
 
 	exclude?: optionExclude | optionExclude[] | Set<optionExclude>;
@@ -34,7 +34,7 @@ export default interface Interface {
 	logger?: optionDebug;
 }
 
-export default interface optionCommandsPlan {
+export interface optionCommandsPlan {
 	debug: optionDebug;
 
 	flights: number;
@@ -46,7 +46,7 @@ export default interface optionCommandsPlan {
 	ongoing: optionCommandsFlight;
 }
 
-export default interface optionCommandsFlight {
+export interface optionCommandsFlight {
 	destination: optionInfo;
 }
 
@@ -56,4 +56,4 @@ export default {
 		passed: async () => true,
 		changed: async (plan) => plan,
 	},
-} satisfies Type;
+} satisfies Interface;
