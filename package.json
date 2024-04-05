@@ -32,7 +32,7 @@
 		"deepmerge-ts": "5.1.0"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.2"
+		"@playform/build": "0.0.5"
 	},
 	"optionalDependencies": {
 		"@playform/document": "0.0.3"
