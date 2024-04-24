@@ -8,19 +8,19 @@
 		"dispatch",
 		"playform"
 	],
-	"homepage": "HTTPS://GitHub.Com/Playform/Watch#readme",
+	"homepage": "HTTPS://GitHub.Com/PlayForm/Watch#readme",
 	"bugs": {
-		"url": "HTTPS://GitHub.Com/Playform/Watch/issues"
+		"url": "HTTPS://GitHub.Com/PlayForm/Watch/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+HTTPS://github.com/Playform/Watch.git"
+		"url": "git+HTTPS://github.com/PlayForm/Watch.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
 		"name": "⛲ Source ⁄ 🚪 Open —",
-		"email": "Source/Open@Playform.Cloud",
-		"url": "HTTPS://Playform.Cloud"
+		"email": "Source/Open@PlayForm.Cloud",
+		"url": "HTTPS://PlayForm.Cloud"
 	},
 	"type": "module",
 	"main": "./Target/Index.js",
