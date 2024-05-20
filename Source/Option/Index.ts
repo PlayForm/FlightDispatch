@@ -56,4 +56,4 @@ export default {
 		passed: async () => true,
 		changed: async (plan) => plan,
 	},
-} satisfies Interface;
+} satisfies Interface as Interface;
