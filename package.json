@@ -30,7 +30,7 @@
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {
-		"deepmerge-ts": "5.1.0"
+		"deepmerge-ts": "6.0.0"
 	},
 	"devDependencies": {
 		"@playform/build": "0.0.8",
