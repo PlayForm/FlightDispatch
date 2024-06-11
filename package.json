@@ -32,7 +32,12 @@
 		"deepmerge-ts": "7.0.3"
 	},
 	"devDependencies": {
+<<<<<<< HEAD
 		"@playform/build": "0.0.10"
+=======
+		"@playform/build": "0.0.10",
+		"@playform/document": "0.0.10"
+>>>>>>> 2e160cbbf7db3b103b567d4ad97c2cd93d9f1015
 	},
 	"publishConfig": {
 		"access": "public"
