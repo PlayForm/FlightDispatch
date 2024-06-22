@@ -1,4 +1,3 @@
-/// <reference types="node" />
 export type optionDebug = 0 | 1 | 2;
 export type optionInfo = string;
 export interface Command {
